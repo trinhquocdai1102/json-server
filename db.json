@@ -1,0 +1,231 @@
+{
+  "categories": [
+    {
+      "id": "435d4331-973e-45d8-a986-33e06a8c4db6",
+      "name": "Sports",
+      "createdAt": 1658553939344,
+      "updatedAt": 1658553939344
+    },
+    {
+      "id": "bf9e2881-6b3f-4b34-9a3f-9ebd24dca2b3",
+      "name": "Kids",
+      "createdAt": 1658553939345,
+      "updatedAt": 1658553939345
+    },
+    {
+      "id": "b2d62fa2-74c8-4fd8-89a2-55c61d45cf06",
+      "name": "Music",
+      "createdAt": 1658553939346,
+      "updatedAt": 1658553939346
+    },
+    {
+      "id": "b2304375-eb0f-4e09-9dca-8b6d2b81ffd5",
+      "name": "Jewelery",
+      "createdAt": 1658553939346,
+      "updatedAt": 1658553939346
+    }
+  ],
+  "products": [
+    {
+      "categoryId": "435d4331-973e-45d8-a986-33e06a8c4db6",
+      "id": "7a52037f-00f7-47de-a002-81707cf70ea2",
+      "name": "Incredible Wooden Towels",
+      "price": 698,
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "createdAt": 1658553939348,
+      "updatedAt": 1658553939348,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "435d4331-973e-45d8-a986-33e06a8c4db6",
+      "id": "71f2bbb9-4510-4788-8bf4-713dc637aa43",
+      "name": "Gorgeous Fresh Car",
+      "price": 428,
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "createdAt": 1658553939349,
+      "updatedAt": 1658553939349,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "435d4331-973e-45d8-a986-33e06a8c4db6",
+      "id": "30f4021b-bd77-4595-93eb-a745f718943c",
+      "name": "Ergonomic Metal Gloves",
+      "price": 116,
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "createdAt": 1658553939350,
+      "updatedAt": 1658553939350,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "435d4331-973e-45d8-a986-33e06a8c4db6",
+      "id": "7e24742c-ed16-4bab-a7cc-7617243a082a",
+      "name": "Intelligent Fresh Hat",
+      "price": 594,
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "createdAt": 1658553939351,
+      "updatedAt": 1658553939351,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "435d4331-973e-45d8-a986-33e06a8c4db6",
+      "id": "befea0f5-1179-4514-8370-237256d8ea3f",
+      "name": "Fantastic Granite Bacon",
+      "price": 47,
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "createdAt": 1658553939352,
+      "updatedAt": 1658553939352,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "bf9e2881-6b3f-4b34-9a3f-9ebd24dca2b3",
+      "id": "f5230dcb-6e98-4bd5-b561-baa93ed3c025",
+      "name": "Handcrafted Cotton Chicken",
+      "price": 759,
+      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "createdAt": 1658553939353,
+      "updatedAt": 1658553939353,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "bf9e2881-6b3f-4b34-9a3f-9ebd24dca2b3",
+      "id": "e11f8a7b-7c5c-4c05-ad7a-9b6755013ee6",
+      "name": "Practical Metal Bike",
+      "price": 804,
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "createdAt": 1658553939353,
+      "updatedAt": 1658553939353,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "bf9e2881-6b3f-4b34-9a3f-9ebd24dca2b3",
+      "id": "04c50a63-f020-4b29-a350-019286d32e30",
+      "name": "Fantastic Plastic Chair",
+      "price": 326,
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "createdAt": 1658553939354,
+      "updatedAt": 1658553939354,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "bf9e2881-6b3f-4b34-9a3f-9ebd24dca2b3",
+      "id": "7388a8a9-0b0f-429a-8e18-69adfec48318",
+      "name": "Gorgeous Steel Towels",
+      "price": 64,
+      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "createdAt": 1658553939355,
+      "updatedAt": 1658553939355,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "bf9e2881-6b3f-4b34-9a3f-9ebd24dca2b3",
+      "id": "bab2162c-805e-4361-ad9d-cc7ad8cade9b",
+      "name": "Licensed Plastic Car",
+      "price": 301,
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "createdAt": 1658553939356,
+      "updatedAt": 1658553939356,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "b2d62fa2-74c8-4fd8-89a2-55c61d45cf06",
+      "id": "1d7e59c6-691e-463f-a569-f42cfc4603eb",
+      "name": "Licensed Soft Keyboard",
+      "price": 348,
+      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "createdAt": 1658553939357,
+      "updatedAt": 1658553939357,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "b2d62fa2-74c8-4fd8-89a2-55c61d45cf06",
+      "id": "9f32e998-b9ab-4c2e-b00f-e4f7fc6e7682",
+      "name": "Unbranded Wooden Cheese",
+      "price": 571,
+      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "createdAt": 1658553939358,
+      "updatedAt": 1658553939358,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "b2d62fa2-74c8-4fd8-89a2-55c61d45cf06",
+      "id": "595a11d2-b689-4393-b518-9de1d46636af",
+      "name": "Licensed Plastic Ball",
+      "price": 743,
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "createdAt": 1658553939359,
+      "updatedAt": 1658553939359,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "b2d62fa2-74c8-4fd8-89a2-55c61d45cf06",
+      "id": "cb450904-2bc1-4eb4-9b6c-210655751550",
+      "name": "Generic Steel Mouse",
+      "price": 222,
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "createdAt": 1658553939360,
+      "updatedAt": 1658553939360,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "b2d62fa2-74c8-4fd8-89a2-55c61d45cf06",
+      "id": "c51be6c0-3985-4f04-b75a-7a50573f070d",
+      "name": "Practical Concrete Sausages",
+      "price": 959,
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "createdAt": 1658553939361,
+      "updatedAt": 1658553939361,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "b2304375-eb0f-4e09-9dca-8b6d2b81ffd5",
+      "id": "f6120d6e-b569-40eb-9d05-07714e08595d",
+      "name": "Incredible Metal Keyboard",
+      "price": 907,
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "createdAt": 1658553939362,
+      "updatedAt": 1658553939362,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "b2304375-eb0f-4e09-9dca-8b6d2b81ffd5",
+      "id": "8e9447b4-be1c-4841-a1e2-d8435db7b7b2",
+      "name": "Licensed Cotton Soap",
+      "price": 374,
+      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "createdAt": 1658553939363,
+      "updatedAt": 1658553939363,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "b2304375-eb0f-4e09-9dca-8b6d2b81ffd5",
+      "id": "0e2e74a0-0eb3-4b39-bf49-eafc67507afc",
+      "name": "Sleek Fresh Pizza",
+      "price": 115,
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "createdAt": 1658553939364,
+      "updatedAt": 1658553939364,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "b2304375-eb0f-4e09-9dca-8b6d2b81ffd5",
+      "id": "8efa23e9-8f6c-4420-88c0-9befd4e7fd0c",
+      "name": "Gorgeous Frozen Mouse",
+      "price": 118,
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "createdAt": 1658553939364,
+      "updatedAt": 1658553939364,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    },
+    {
+      "categoryId": "b2304375-eb0f-4e09-9dca-8b6d2b81ffd5",
+      "id": "99ec989d-d87d-482e-989f-02c727159ddb",
+      "name": "Refined Concrete Pizza",
+      "price": 976,
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "createdAt": 1658553939365,
+      "updatedAt": 1658553939365,
+      "thumbnailUrl": "http://placeimg.com/400/400"
+    }
+  ],
+  "profile": { "name": "Dai" }
+}
