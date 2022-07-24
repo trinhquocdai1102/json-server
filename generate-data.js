@@ -20,6 +20,9 @@ const randomCategoryList = (n) => {
   return categoryList;
 };
 
+const categoryListNum = 50;
+const productListNum = 20;
+
 const randomProductList = (categoryList, numberOfProduct) => {
   if (numberOfProduct <= 0) return [];
 
@@ -38,6 +41,7 @@ const randomProductList = (categoryList, numberOfProduct) => {
         thumbnailUrl: faker.image.imageUrl(400, 400),
         createdAt: Date.now(),
         updatedAt: Date.now(),
+        totalItem: +categoryListNum * +productListNum,
       };
 
       productList.push(product);
@@ -47,8 +51,8 @@ const randomProductList = (categoryList, numberOfProduct) => {
 };
 
 (() => {
-  const categoryList = randomCategoryList(50);
-  const productList = randomProductList(categoryList, 20);
+  const categoryList = randomCategoryList(categoryListNum);
+  const productList = randomProductList(categoryList, productListNum);
 
   const db = {
     categories: categoryList,
