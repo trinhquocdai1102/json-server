@@ -31,11 +31,13 @@ const randomProductList = (categoryList, numberOfProduct) => {
         categoryId: category.id,
         id: faker.random.uuid(),
         name: faker.commerce.productName(),
-        price: Number.parseFloat(faker.commerce.price()),
         description: faker.commerce.productDescription(),
+        price: Number.parseFloat(faker.commerce.price()),
+        color: faker.commerce.color(),
+        amount: +Number(faker.finance.amount()).toFixed(),
+        thumbnailUrl: faker.image.imageUrl(400, 400),
         createdAt: Date.now(),
         updatedAt: Date.now(),
-        thumbnailUrl: faker.image.imageUrl(400, 400),
       };
 
       productList.push(product);
@@ -45,8 +47,8 @@ const randomProductList = (categoryList, numberOfProduct) => {
 };
 
 (() => {
-  const categoryList = randomCategoryList(4);
-  const productList = randomProductList(categoryList, 5);
+  const categoryList = randomCategoryList(50);
+  const productList = randomProductList(categoryList, 20);
 
   const db = {
     categories: categoryList,
