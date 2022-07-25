@@ -41,7 +41,6 @@ const randomProductList = (categoryList, numberOfProduct) => {
         thumbnailUrl: faker.image.imageUrl(400, 400),
         createdAt: Date.now(),
         updatedAt: Date.now(),
-        totalItem: +categoryListNum * +productListNum,
       };
 
       productList.push(product);
