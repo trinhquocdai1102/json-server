@@ -49,13 +49,31 @@ const randomProductList = (categoryList, numberOfProduct) => {
   return productList;
 };
 
+const randomAuth = (n) => {
+  if (n <= 0) return [];
+  const authList = [];
+
+  Array.from(new Array(n)).forEach(() => {
+    const name = faker.name.findName();
+    const auth = {
+      email: faker.internet.email(name),
+      password: faker.internet.password(),
+    };
+    authList.push(auth);
+  });
+
+  return authList;
+};
+
 (() => {
   const categoryList = randomCategoryList(categoryListNum);
   const productList = randomProductList(categoryList, productListNum);
+  const authList = randomAuth(1);
 
   const db = {
     categories: categoryList,
     products: productList,
+    auth: authList,
     profile: {
       name: 'Dai',
     },
