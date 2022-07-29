@@ -65,15 +65,36 @@ const randomAuth = (n) => {
   return authList;
 };
 
+const randomRegister = (n) => {
+  if (n <= 0) return [];
+  const registerList = [];
+
+  Array.from(new Array(n)).forEach(() => {
+    const register = {
+      isLoggedIn: false,
+      user: {
+        name: '',
+        expires_at: '',
+        jwttoken: '',
+        authorities: [],
+      },
+    };
+    registerList.push(register);
+  });
+
+  return registerList;
+};
 (() => {
   const categoryList = randomCategoryList(categoryListNum);
   const productList = randomProductList(categoryList, productListNum);
   const authList = randomAuth(1);
+  const registerList = randomRegister(1);
 
   const db = {
     categories: categoryList,
     products: productList,
     auth: authList,
+    register: registerList,
     profile: {
       name: 'Dai',
     },
