@@ -54,10 +54,11 @@ const randomAuth = (n) => {
   const authList = [];
 
   Array.from(new Array(n)).forEach(() => {
-    const name = faker.name.findName();
     const auth = {
-      email: faker.internet.email(name),
-      password: faker.internet.password(),
+      email: 'trinhquocdai1102@gmail.com',
+      password: 'dai123',
+      name: 'dai',
+      gender: 'male',
     };
     authList.push(auth);
   });
